@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Mảng</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="mx-auto" style="width: 500px;">
+        <div class="py-5">
+            <h3>Bài tập Mảng</h3>
+            <form>
+                <div class="form-group">
+                    <label for="">Nhập các số</label>
+                    <input type="number" class="form-control" id="inputNumber">
+                </div>
+                <button id="btnAdd" type="button" class="btn btn-primary">Thêm số</button>
+            </form> 
+            <p class="alert alert-info my-2" id="txtShow"></p>
+        </div>
+    
+        <div>
+            <h4>Bài 1: Tổng các số dương</h4>
+            <button id="btnSum" type="button" class="btn btn-primary">Tính tổng</button>
+            <p class="alert alert-info my-2" id="txtSum"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 2: Đếm các số dương</h4>
+            <button id="btnCount" type="button" class="btn btn-primary">Đếm số</button>
+            <p class="alert alert-info my-2" id="txtCount"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 3: Tìm số bé nhất</h4>
+            <button id="btnFindMin" type="button" class="btn btn-primary">Tìm số bé nhất</button>
+            <p class="alert alert-info my-2" id="txtFindMin"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 4: Tìm số dương bé nhất</h4>
+            <button id="btnFindPositiveMin" type="button" class="btn btn-primary">Tìm số dương bé nhất</button>
+            <p class="alert alert-info my-2" id="txtFindPositiveMin"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 5: Tìm số chẵn cuối cùng</h4>
+            <button id="btnLastEven" type="button" class="btn btn-primary">Tìm số chẵn cuối cùng</button>
+            <p class="alert alert-info my-2" id="txtLastEven"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 6: Đổi chỗ hai giá trị trong mảng</h4>
+            <form>
+                <div class="row">
+                    <div class="form-group col-6">
+                        <input type="number" class="form-control" id="inputPlace1" placeholder="Nhập vị trí 1">
+                    </div>
+                    <div class="form-group col-6">
+                        <input type="number" class="form-control" id="inputPlace2" placeholder="Nhập vị trí 2">
+                    </div>
+
+                </div>
+                
+            </form> 
+            <button id="btnMove" type="button" class="btn btn-primary">Đổi chỗ</button>
+            <p class="alert alert-info my-2" id="txtMove"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 7: Sắp xếp tăng dần</h4>
+            <button id="btnArrange" type="button" class="btn btn-primary">Sắp xếp</button>
+            <p class="alert alert-info my-2" id="txtArrange"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 8: Tìm số nguyên tố đầu tiên</h4>
+            <button id="btnFirstPrime" type="button" class="btn btn-primary">Tìm</button>
+            <p class="alert alert-info my-2" id="txtFirstPrime"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 9: Đếm số nguyên</h4>
+            <form>
+                <div class="form-group">
+                    <label for="inputFloat">Nhập các số thực</label>
+                    <input type="number" class="form-control" id="inputFloat">
+                </div>
+                <button id="btnAddFloat" type="button" class="btn btn-primary">Thêm số</button>
+            </form> 
+            <p class="alert alert-info my-2" id="txtShowFloat"></p>
+
+            <button id="btnCountInteger" type="button" class="btn btn-primary">Đếm</button>
+            <p class="alert alert-info my-2" id="txtCountInteger"></p>
+        </div>
+
+        <div class="mt-5">
+            <h4>Bài 10: So sánh số lượng số âm và số dương</h4>
+            <button id="btnCompare" type="button" class="btn btn-primary">So sánh</button>
+            <p class="alert alert-info my-2" id="txtCompare"></p>
+        </div>
+
+
+    </div>
+
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
